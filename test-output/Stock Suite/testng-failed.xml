@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stock Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listener.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Adding Fresh Test(failed)">
+    <classes>
+      <class name="testcases.rediff.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="addFreshStock"/>
+          <include name="selectPortfolio"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.rediff.StockManagement -->
+    </classes>
+  </test> <!-- Adding Fresh Test(failed) -->
+</suite> <!-- Failed suite [Stock Suite] -->

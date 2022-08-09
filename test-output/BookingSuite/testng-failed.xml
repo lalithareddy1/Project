@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BookingSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Create Booking Test - NoDiscount(failed)">
+    <classes>
+      <class name="bookingdemo.PaymentManager">
+        <methods>
+          <include name="make_payment"/>
+        </methods>
+      </class> <!-- bookingdemo.PaymentManager -->
+    </classes>
+  </test> <!-- Create Booking Test - NoDiscount(failed) -->
+  <test thread-count="5" name="Create Booking Test - Apply Discount(failed)">
+    <classes>
+      <class name="bookingdemo.PaymentManager">
+        <methods>
+          <include name="make_payment"/>
+        </methods>
+      </class> <!-- bookingdemo.PaymentManager -->
+    </classes>
+  </test> <!-- Create Booking Test - Apply Discount(failed) -->
+</suite> <!-- Failed suite [BookingSuite] -->
